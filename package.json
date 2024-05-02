@@ -1,22 +1,17 @@
 {
-  "name": "electron-quick-start",
-  "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "name": "electron-template",
+  "version": "0.0.0",
+  "description": "Template electron application",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Tyler Barnhill",
+  "license": "ISC",
   "devDependencies": {
-    "electron": "^15.1.1"
+    "electron": "^30.0.2"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
   }
 }
